@@ -1,0 +1,1 @@
+web: gunicorn holamundo.swgi --log-file -
