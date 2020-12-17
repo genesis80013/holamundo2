@@ -23,7 +23,7 @@ from django.conf.urls.static import static
 from templates import *
 
 urlpatterns = static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += staticfiles_urlpatterns()
+#urlpatterns += staticfiles_urlpatterns()
 urlpatterns += [
     url(r'^$', login.view),
 ]
